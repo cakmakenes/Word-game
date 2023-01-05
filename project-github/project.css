@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+  *{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+    body{
+        font-family: 'Comfortaa';
+        color:white;
+        background-color: bisque;
+    }
+
+    i,#bottom div{
+        cursor:pointer;
+    }
+#background{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(./925905.jpg);
+     background-position:  220px;  
+     background-size: 50px ; 
+     background-size: cover; 
+
+   
+    text-align: center;
+    margin: 10px auto;
+    width:450px;
+    height:720px;
+    background-color:#e3dbdb;
+}
+
+h4{
+    line-height: 30px;
+    color:#FFE8FF;
+}
+
+#top{
+    margin-top: 10px;
+position:relative;
+width:450px;
+height:330px;
+
+}
+
+#puzzle {
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* #puzzle > div{
+    display:flex;
+    justify-content:space-around;
+    width: 20px;
+    /* border: 1px solid red; */
+    
+
+
+#puzzle .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* padding:1px; */
+    margin : 2px 0 ;
+    /* border:1px solid red; */
+}
+
+#puzzle .row > div{
+  
+    display: flex;
+    justify-content:space-evenly;
+    /* margin: 0px 0px; */
+    line-height: 60px;
+    /* margin:1px; */
+    width: 60px;
+    height:60px;
+    border:1px solid #960de6;
+    color:#361847;
+    background-color: #361847;
+    border-radius: 4px;
+    font-size: 26px;
+}
+
+/* #top #table{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 40px;
+    
+
+border:1px solid red;
+
+} */
+
+/* #top > div .puzzle{ */
+ 
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content:space-between; */
+    /* margin:10px 5px;
+    line-height: 40px; */
+    /* align-items: center; */
+    /* width:50px;
+    border:1px solid red;
+} */
+
+#word{
+    
+    /* background-color: pink; */
+    
+    position:relative;
+    font-size: 20px;
+    right:5px;
+    top:5px;
+    margin:0 auto;
+
+    
+}
+#bottom{
+    background-color: #361847;
+    opacity: 95%;
+    display:flex;
+    flex-direction: column;
+    margin: 10px 0;
+    position:relative;
+    left:80px;
+    top:30px;
+    line-height: 250px;
+    width:280px;
+    height:280px;
+    border: 3px solid #E7F2FE;
+    border-radius: 300px;
+}
+#bottom > div{
+    
+    color: #ddd;
+    font-size: 50px;
+    border-radius: 70px;
+    /* background-color:#DCB5EF ; */
+}
+/* #bottom > div:hover{
+
+    background-color:#E7F2FE ;
+
+
+
+} */
+
+#bottom #div1{
+    position:relative;
+    line-height: 70px;;
+    width:70px;
+    height:70px;
+    left:40px;
+    bottom:230px;
+
+   
+}
+#bottom #div2{
+    position:relative;
+    line-height: 70px;;
+    width:70px;
+    height:70px;
+    left:170px;
+    bottom:300px;
+
+}
+#bottom #div3{
+    position:relative;
+    line-height: 70px;;
+    width:70px;
+    height:70px;
+    left:190px;
+    bottom:275px;
+   
+}
+#bottom #div4{
+    position:relative;
+    line-height: 70px;;
+    width:70px;
+    height:70px;
+    left:20px;
+    bottom:348px;
+}
+#bottom #div5{
+    position:relative;
+    line-height: 70px;;
+    width:70px;
+    height:70px;
+    left:105px;
+    bottom:350px;
+}
+
+#bottom i{
+    position: inherit;
+    color:#ddd;
+    margin:110px auto;
+    padding:5px;
+    height:30px;
+    font-size: 35px;
+}
+
+#bottom i:hover{
+
+    
+    color:aliceblue;
+}
+
+/* #bottom .circleWords{
+
+    width:100px;
+    height:10px;
+} */
+
+
+/* #bottom > :not(div){
+    background-color: red;
+} */
+
+#hint{
+    line-height: 40px;
+    background-color: #ddf;
+    color:#361847;
+    width:40px;
+    height:40px;
+    border: 3px solid rgb(140, 2, 253);
+    border-radius: 100px;
+    position:relative;
+    font-size: 25px;
+    left:300px;
+    bottom:300px;
+    transition: all ease 0.2s;
+
+}
+
+#hint:hover{
+    color:#ddf;
+    background-color: #a75fd1;
+
+    font-size: 30px;
+    border: 3px solid rgb(140, 2, 253);
+    /* width:50px;
+    height:50px; */
+   
+
+
+}
+
+
+/* 
+<div id="table">
+<div class="puzzle">
+    <div>S</div>
+    <div>E</div>
+    <div>R</div>
+    <div>A</div>
+    <div>P</div>
+    <div></div>
+</div>
+ <br>
+<div class="puzzle">
+    <div>E</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div>A</div>
+    <div></div>
+</div><br>
+<div class="puzzle">
+    <div>R</div>
+    <div></div>
+    <div>S</div>
+    <div>A</div>
+    <div>R</div>
+    <div>P</div>
+</div><br>
+<div class="puzzle">
+    <div>A</div>
+    <div></div>
+    <div>A</div>
+    <div></div>
+    <div>E</div>
+    <div></div>
+</div><br>
+<div class="puzzle">
+    <div></div>
+    <div></div>
+    <div>P</div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+</div>  */
