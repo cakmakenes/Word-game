@@ -12,7 +12,9 @@ Word generation game for CTIS 255 lecture All of the code(HTML, CSS, Javascript)
 
 ## Demo
  - [Game Link](http://word-game-enes.s3-website.eu-central-1.amazonaws.com/)
-
+ - Left Click: Choose word
+ - Right Click: Submit word
+ 
 ## Screenshots
 
 ![Screenshot](https://word-game-enes.s3.eu-central-1.amazonaws.com/Screenshot_5.png)
